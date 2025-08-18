@@ -16,7 +16,15 @@ class MyApp extends StatelessWidget {
           title: const Text('My App') ,
           backgroundColor: Colors.indigo,
         ),
-        body: Icon(Icons.insert_chart_outlined_sharp),
+        body: Container(
+          height: 250,
+          width: 250,
+          
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(1000),
+           color: Colors.red, 
+          ),
+          ),
       ),
     );
   }
