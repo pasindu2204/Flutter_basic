@@ -13,8 +13,10 @@ class MyApp extends StatelessWidget {
       title: "my world",
       home: Scaffold(
         appBar: AppBar(
-          title: Text('My App') ,
+          title: const Text('My App') ,
+          backgroundColor: Colors.indigo,
         ),
+        body: Icon(Icons.insert_chart_outlined_sharp),
       ),
     );
   }
