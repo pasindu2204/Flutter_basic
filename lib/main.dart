@@ -13,18 +13,10 @@ class MyApp extends StatelessWidget {
       title: "my world",
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('My App') ,
+          title: const Text('Flutter App') ,
           backgroundColor: Colors.indigo,
         ),
-        body: Container(
-          height: 250,
-          width: 250,
-          
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(1000),
-           color: Colors.red, 
-          ),
-          ),
+        body: Image.asset("assests/1.jpg")
       ),
     );
   }
